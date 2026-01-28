@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{business_name}}AURELIAN STUDIO | Bespoke Architectural Excellence</title>
+    <meta name="description"
+        content="{{meta_description}}A boutique architectural firm specializing in quiet luxury and timeless design principles.">
+
+    <!-- Google Fonts: Prata (Serif) & Inter (Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Prata&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="main-header">
+        <nav class="glass-pill">
+            <div class="logo-area">
+                <span class="logo-icon">{{logo}}✧</span>
+                <span class="business-name">{{business_name}}</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#footer">Contact Us</a>
+            </div>
+            <div class="nav-actions">
+                <button class="hamburger" id="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <div class="mobile-nav" id="mobile-nav">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#footer">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section fade-in-up">
+            <div class="hero-content">
+                <h1 class="hero-title">{{slogan}}<span></span> </h1>
+                <p class="hero-desc">{{hero_desc}}</p>
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="#footer" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <img src="hero.png" alt="Modern Minimalist Architecture" class="sepia-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section fade-in-up">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <p class="about-text">
+                    {{about_text}}
+                </p>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section fade-in-up">
+            <div class="container">
+                <h2 class="section-title">Services We Offer</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <span class="service-number">01</span>
+                        <h3 class="service-title">{{s1_name}}</h3>
+                        <p class="service-desc">{{s1_desc}}
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <span class="service-number">02</span>
+                        <h3 class="service-title">{{s2_name}}</h3>
+                        <p class="service-desc">{{s2_desc}}</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="service-number">03</span>
+                        <h3 class="service-title">{{s3_name}}</h3>
+                        <p class="service-desc">{{s3_desc}}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-section fade-in-up">
+            <div class="container">
+                <h2 class="section-title">Why Choose Us</h2>
+                <div class="pillars-row">
+                    <div class="pillar">
+                        <p class="pillar-text">{{p1}}.</p>
+                    </div>
+                    <div class="pillar-divider"></div>
+                    <div class="pillar">
+                        <p class="pillar-text">{{p2}}</p>
+                    </div>
+                    <div class="pillar-divider"></div>
+                    <div class="pillar">
+                        <p class="pillar-text">{{p3}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio-section fade-in-up">
+            <div class="container">
+                <h2 class="section-title">Selected Works</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">{{port1}}
+                        <img src="portfolio_detail.png" alt="Portfolio 1" class="sepia-image">
+                    </div>
+                    <div class="portfolio-item">{{port2}}
+                        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=800"
+                            alt="Portfolio 2" class="sepia-image">
+                    </div>
+                    <div class="portfolio-item">{{port3}}
+                        <img src="https://images.unsplash.com/photo-1600566753190-17f0bcd2a6c4?auto=format&fit=crop&q=80&w=800"
+                            alt="Portfolio 3" class="sepia-image">
+                    </div>
+                    <div class="portfolio-item">{{port4}}
+                        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=800"
+                            alt="Portfolio 4" class="sepia-image">
+                    </div>
+                    <div class="portfolio-item">{{port5}}
+                        <img src="https://images.unsplash.com/photo-1600585154526-990dcea4db0d?auto=format&fit=crop&q=80&w=800"
+                            alt="Portfolio 5" class="sepia-image">
+                    </div>
+                    <div class="portfolio-item">{{port6}}
+                        <img src="https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80&w=800"
+                            alt="Portfolio 6" class="sepia-image">
+                    </div>
+                </div>
+                <div class="portfolio-actions fade-in-up">
+                    <a href="https://drive.google.com" target="_blank" class="btn btn-primary">View Full Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container footer-content">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="logo-icon">✧</span>
+                    <span class="business-name">{{business_name}}</span>
+                </div>
+            </div>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> {{phone}}</p>
+                    <p><i class="fas fa-envelope"></i> {{email}}</p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Address</h4>
+                    <p>{{address}}</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Hours</h4>
+                    <p>{{hours}}</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 {{business_name}}. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/15557829104" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
